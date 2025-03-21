@@ -1,18 +1,19 @@
 public class Usuario {
-    private String username;
+    private String nome;
     private String senha;
 
-    public Usuario(String username, String senha) {
-        this.username = username;
+    public Usuario(String nome, String senha) {
+        this.nome = nome;
         this.senha = senha;
     }
 
-    public String getUsername() {
-        return username;
+    public String getNome() {
+        return nome;
     }
 
     public String getSenha() {
         return senha;
     }
 }
+
 
